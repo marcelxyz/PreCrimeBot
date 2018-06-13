@@ -1,6 +1,9 @@
 # PreCrimeBot
 
-A Python application for on-demand prediction of London crime.
+Python application for on-demand prediction of London crime,
+my graduation project fromQueen Mary, University of London.
+
+You can find the relevant project report [here](report/report.pdf).
 
 ## Installation
 
@@ -62,12 +65,12 @@ in your browser.
 ## Model retraining
 
 Before retraining the models, you must first download the UK Police data.
-This process is explained in the `data/README.md` file.
+This process is explained in the [data/README.md](data/README.md) file.
 
-Once that's done, you can run the classifier:
+Once that's done, you can train the models using the training module:
 
 ```bash
-python app/classifier/crime_classifier.py
+python app/train.py
 ```
 
 **NOTE:** This will attempt to train all the models that are defined in the
