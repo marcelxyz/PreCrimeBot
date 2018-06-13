@@ -1,0 +1,6 @@
+.idea
+*.pyc
+*.csv
+.venv
+cache/*.pkl
+data/20*
