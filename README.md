@@ -1,7 +1,7 @@
 # PreCrimeBot
 
 Python application for on-demand prediction of London crime,
-my graduation project fromQueen Mary, University of London.
+my graduation project from Queen Mary, University of London.
 
 You can find the relevant project report [here](report/report.pdf).
 
